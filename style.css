@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* universal selection */
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +13,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: navy;
 }
+
+
+
+
 /* navbar section start */
 nav{
     display: flex;
@@ -42,12 +49,13 @@ ul li >a:hover{
     transform: rotate(-90deg);
     margin-left: 5px;
 }
+/* navbar section end */
+
+
+
+
 
 /* banner section start */
-/* .banner{
-    
-    margin: 0 auto;
-} */
 .cloud-container{
     background-color: skyblue;
     height: 20vh;
@@ -102,7 +110,7 @@ ul li >a:hover{
 }
 .tree{
     position: absolute;
-    top: 360px;
+    top: 380px;
     z-index: -1;
     left: -150px;
 }
@@ -115,6 +123,11 @@ h1{
     font-weight: 800;
     font-size: 25px;
 }
+/* banner section end */
+
+
+
+/* dropdown section start */
 .dropdown {
     position: relative;
   }
@@ -133,3 +146,37 @@ h1{
     display: block;
     color: gray;
   }
+
+/* dropdown section end */
+
+
+  /* previous btn start */
+  .cng{
+    position: absolute;
+    left: -150px;
+    color: white;
+    background-color: rgb(152, 141, 141);
+ 
+    border-radius: 50%;
+    padding: 4px;
+    top: 60px;
+
+    left: -1270px;
+   
+}
+/* previous btn end */
+
+
+
+
+/* forward btn start */
+.cng1{
+    position: absolute;
+    color: white;
+    background-color: rgb(152, 141, 141);
+    border-radius: 50%;
+    padding: 4px;
+    top: 80px;
+    right: 150px;
+}
+/* forward btn end */
